@@ -31,8 +31,9 @@ THE SOFTWARE.
  * \brief  Wrapper around std::vector for the JIT backend.
  */
 
-#include <vector>
+#include <algorithm>
 #include <memory>
+#include <vector>
 
 namespace vex {
 namespace backend {
